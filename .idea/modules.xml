@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/baseservice/baseservice.iml" filepath="$PROJECT_DIR$/baseservice/baseservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseservice/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/baseservice/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microseed.iml" filepath="$PROJECT_DIR$/microseed.iml" />
+    </modules>
+  </component>
+</project>
