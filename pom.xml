@@ -10,6 +10,7 @@
     <modules>
         <module>eureka-server</module>
         <module>demo</module>
+        <module>base-service</module>
     </modules>
     <packaging>pom</packaging>
 
