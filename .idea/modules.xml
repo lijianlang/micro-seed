@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/baseservice/baseservice.iml" filepath="$PROJECT_DIR$/baseservice/baseservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/baseservice/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/baseservice/eurekaserver/eurekaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/microseed.iml" filepath="$PROJECT_DIR$/microseed.iml" />
     </modules>
