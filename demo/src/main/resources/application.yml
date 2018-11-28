@@ -1,11 +1,8 @@
-server:
-  port: 8001
 spring:
-  application:
-    name: demo
-eureka:
-  client:
-    service-url:
-      defaultZone: http://${eureka.instance.hostname}:9001/eureka/
-  instance:
-    hostname: localhost
+  profiles:
+    active: dev
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

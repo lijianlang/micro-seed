@@ -1,0 +1,17 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: demo
+  datasource:
+    druid:
+      url: jdbc:mysql://47.107.225.141:3306/demo?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: 6687686li
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:9001/eureka/
+  instance:
+    hostname: localhost
+
