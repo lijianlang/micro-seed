@@ -1,6 +1,12 @@
 spring:
   profiles:
     active: dev
+#    设置ftl文件路径
+  freemarker:
+    template-loader-path: classpath:/templates
+#    设置静态文件路径 img,css,js
+  mvc:
+    static-path-pattern: /static/**
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
   configuration:
