@@ -29,7 +29,7 @@ public class DemoController {
 
     @GetMapping(value = "/login")
     public String login(Model model) {
-        model.addAttribute("name", "lily");
+        model.addAttribute("name", "陈凌浩你是逗逼吗");
         return "login";
     }
 }

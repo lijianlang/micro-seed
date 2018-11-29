@@ -6,7 +6,6 @@
 	<groupId>cn.ljl</groupId>
 	<artifactId>base-service</artifactId>
 	<version>1.0.0</version>
-	<packaging>jar</packaging>
 
 	<name>base-service</name>
 	<description>Base service for all modules</description>
@@ -54,14 +53,6 @@
 
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 
 
 </project>
